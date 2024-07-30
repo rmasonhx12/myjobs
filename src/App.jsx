@@ -7,6 +7,11 @@ const App = () => {
   const x = 20;
   const y = 105;
   const names = ['Robert', 'Jackie', 'Danny', 'Sammy', 'Monee'];
+  const loggedIn = false;
+
+  /* if (loggedIn) {
+    return <h1>Hello Member</h1>
+  } */
 
   return (
 
@@ -26,6 +31,16 @@ const App = () => {
         <li key={index}>{ name }</li>
       ))}
     </ul>
+    <div className="text-center py-28">
+      <button className="bg-blue-300 rounded-3xl text-4xl ">Sign In</button>
+    </div>
+    <div className="py-12 bg-purple-500 rounded-full" >
+    <div className="text-3xl text-center py-10  bg-purple-400 px-20 text-white rounded-full ">
+      {loggedIn ? <h1 className="text-green-600">Hello Member</h1> : <h1 className="text-red-700">Hello Guest</h1>}
+      </div>
+    </div>
+     
+
     
     </>
     
