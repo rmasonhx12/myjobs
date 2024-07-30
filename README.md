@@ -11,4 +11,4 @@ Currently, two official plugins are available:
 
 To set up Tailwind CSS with this template, follow the guide provided in the Tailwind CSS documentation:
 
-- [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
+- [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) site for tailwind.

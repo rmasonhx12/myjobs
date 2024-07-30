@@ -1,7 +1,11 @@
-export default function App() {
+// changed -- use code snippet for rafce 
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-800">
-      Hello world!
-    </h1>
+    <div className="text-3xl bg-blue-700 text-center text-yellow-500">
+      Bujisoft LLC
+    </div>
   )
 }
+
+export default App
